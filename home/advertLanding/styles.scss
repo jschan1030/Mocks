@@ -1,0 +1,18 @@
+$SmokyBlack: #12130f;
+@mixin dispFlex {
+    display: flex;
+}
+@mixin flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+#contentCell {
+    max-width: 1250px;
+}
+#backCell {
+    max-width: 1440px;
+    &-full {
+        width: 100%;
+    }
+}
