@@ -1,0 +1,22 @@
+.shellFunctionalArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.shellFunctionalArea .mainContent {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+.shellFunctionalArea .mainContent .content--flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.shellFunctionalArea .mainContent .content--flex-col {
+    display: flex;
+    flex-direction: column;
+}
