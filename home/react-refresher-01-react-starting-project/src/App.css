@@ -1,22 +1,36 @@
-.shellFunctionalArea {
+.shell--main .shell--banner {
+    width: 100%;
+    min-height: 75px;
+    background-color: rgb(36, 36, 194);
+}
+.shell--main .shell--banner .functional-area {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+}
+
+.shell--main .shell--content {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: rgb(231, 228, 228);
 }
 
-.shellFunctionalArea .mainContent {
-    max-width: 900px;
+.shell--main .shell--content .mainContent {
+    max-width: 1200px;
     width: 100%;
     margin: auto;
+    background-color: white;
+    padding: 5%;
 }
 
-.shellFunctionalArea .mainContent .content--flex-row {
+.shell--main .shell--content .mainContent .content--flex-row {
     display: flex;
     flex-direction: row;
 }
 
-.shellFunctionalArea .mainContent .content--flex-col {
+.shell--main .shell--content .mainContent .content--flex-col {
     display: flex;
     flex-direction: column;
 }
