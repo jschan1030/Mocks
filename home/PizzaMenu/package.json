@@ -1,0 +1,16 @@
+{
+  "name": "pizzamenu",
+  "version": "1.0.0",
+  "description": "basicReactAppLocalOnly",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"react-scripts test\""
+  },
+  "author": "jojosfdev",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  }
+}

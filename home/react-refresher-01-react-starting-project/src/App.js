@@ -5,8 +5,14 @@ import BasicForm from './components/BasicForm.js';
 
 const App = () => {
   return <div className='shell--main'>
-    <div className='shell--banner'>
-      <div className='functional-area'></div>
+    <div className='shell--header'>
+      <div className='shell--header-banner'>
+        <div className='banner--top'>
+          <h1>Title of Site!</h1>
+        </div>
+        <div className='banner--bot'>
+        </div>
+      </div>
     </div>
     <div className='shell--content'>
       <div className='mainContent'>
